@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "test",
+      "name": "📁 test (MicroPython)"
+    }
+  ],
+  "settings": {
+    "micropythonStudio.project": true,
+    "micropythonStudio.targetMCU": "esp32",
+    "micropythonStudio.language": "Micropython",
+    "python.terminal.activateEnvironment": false
+  }
+}

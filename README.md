@@ -40,6 +40,9 @@ Then open the website:
 
 ## Deploy
 
+Regarding the firmware, it should be built with `ulab` (= numpy).
+Use one of the available file in `setup` (I don't remember which one is good, I think 1.28 is too new and was buggy for our ESP)
+
 Copy the contents of `main/` to the device root (so `main.py` runs on boot),
 including the `microdot` package (the package modules, e.g.
 `microdot/__init__.py` and `microdot/microdot.py`, must be importable as
